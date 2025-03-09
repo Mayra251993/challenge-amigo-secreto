@@ -14,4 +14,9 @@ Luego hacer click en el boton
 
 ![image](https://github.com/user-attachments/assets/0477a0cb-5e81-4e0b-8898-60157d160ff5)
 
+Realizamos pruebas para que cuando no se ingresen datos y le demos en Añadir de la Alerta
+
+La alerta funciona ok 
+
+![image](https://github.com/user-attachments/assets/02880d10-a13f-4652-a668-d5faf809b0bb)
 
