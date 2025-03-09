@@ -2,10 +2,10 @@
 
 let amigos = []
 
-function agregarAmigo(elemento, texto) {
-    let elementoHTML = document.querySelector(elemento);
-    elementoHTML.innerHTML = texto;
-    return;
+let nombre = document.getElementById('amigo').value;
+
+console.log(nombre); 
+
+function agregarAmigo() {
+    
 }
-
-
