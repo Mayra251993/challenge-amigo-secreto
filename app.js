@@ -12,10 +12,9 @@ function agregarAmigo() {
 
     // Validar que el campo no esté vacío
     if (nombre === "") {
-        // Mostrar un mensaje de alerta si el campo está vacío
         alert("Por favor, inserte un nombre.");
     } else {
-        // Si el campo no está vacío, continuar con la lógica (agregar al arreglo, mostrar en la lista, etc.)
+        
         // Aquí puedes agregar el nombre al arreglo de amigos o hacer lo que necesites
         console.log("Nombre agregado: " + nombre);
         
