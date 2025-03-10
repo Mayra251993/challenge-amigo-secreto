@@ -20,3 +20,8 @@ La alerta funciona ok
 
 ![image](https://github.com/user-attachments/assets/02880d10-a13f-4652-a668-d5faf809b0bb)
 
+Ahora si ingresas al sistema y colocas el mismo nombre te va a indicar que ya esta ingresado, ademas de mostrarnos como un array que antes no estaba funionando bien.
+
+![image](https://github.com/user-attachments/assets/311c4c70-1cec-4beb-ba71-51bf324af61f)
+
+
