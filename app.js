@@ -4,7 +4,7 @@ let amigos = []
 
 let nombre = document.getElementById('amigo').value;
 
-console.log(nombre); 
+//console.log(nombre); 
 
 function agregarAmigo() {
     // Obtener el valor del campo de entrada
@@ -27,7 +27,7 @@ function agregarAmigo() {
     amigos.push(nombre);
     input.value = "";
     actualizarLista();
-    console.log("Lista actualizada:", amigos);
+    //console.log("Lista actualizada:", amigos);
 }
 
 function actualizarLista() {
@@ -39,4 +39,20 @@ function actualizarLista() {
         nuevoElemento.textContent = amigo;
         lista.appendChild(nuevoElemento);
     }
+}
+
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert("No hay amigos en la lista para sortear.");
+        return;
+    }
+
+
+
+    let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    let amigoSorteado = amigos[indiceAleatorio];
+
+    document.getElementById("listaAmigos").innerHTML= " ";
+    document.getElementById("resultado").innerHTML = "Amigo sorteado: " + amigoSorteado;
+   
 }
