@@ -24,4 +24,20 @@ Ahora si ingresas al sistema y colocas el mismo nombre te va a indicar que ya es
 
 ![image](https://github.com/user-attachments/assets/311c4c70-1cec-4beb-ba71-51bf324af61f)
 
+Para jugar al amigo secreto es PASO 1 : Escribir el amigo secreto  e insertarlo con el boton 
+
+```Añadir```
+
+![image](https://github.com/user-attachments/assets/65174365-9da6-4a3c-885b-0e674ba58559)
+
+ Y luego de añadir todos los amigos colocar 
+
+ ```Sortear Amigos```
+ 
+ ![image](https://github.com/user-attachments/assets/7df93a5e-6c22-4fd4-9b13-f8573f0ef04a)
+
+
+
+
+
 
