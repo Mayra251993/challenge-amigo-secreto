@@ -8,23 +8,35 @@ console.log(nombre);
 
 function agregarAmigo() {
     // Obtener el valor del campo de entrada
-    let nombre = document.getElementById('amigo').value.trim();  // .trim() para eliminar espacios innecesarios
+    let input = document.getElementById('amigo');
+    let nombre = input.value.trim(); // Elimina espacios en blanco
 
     // Validar que el campo no esté vacío
     if (nombre === "") {
         alert("Por favor, inserte un nombre.");
-    } else {
-        
-        // Aquí puedes agregar el nombre al arreglo de amigos o hacer lo que necesites
-        console.log("Nombre agregado: " + nombre);
-        
-        // Limpiar el campo de entrada después de añadir el nombre
-        document.getElementById('amigo').value = "";
-        
-        // Ejemplo de cómo agregarlo a la lista (suponiendo que tengas un <ul> con id 'listaAmigos')
-        let listaAmigos = document.getElementById('listaAmigos');
-        let nuevoAmigo = document.createElement('li');
-        nuevoAmigo.textContent = nombre;
-        listaAmigos.appendChild(nuevoAmigo);
+
+        return;
+   
+    }
+
+    if (amigos.includes(nombre)) {
+        alert("El nombre ya está en la lista.");
+        return;
+    }
+
+    amigos.push(nombre);
+    input.value = "";
+    actualizarLista();
+    console.log("Lista actualizada:", amigos);
+}
+
+function actualizarLista() {
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = ""; // Limpiar la lista antes de actualizarla
+    
+    for (let amigo of amigos) {
+        let nuevoElemento = document.createElement("li");
+        nuevoElemento.textContent = amigo;
+        lista.appendChild(nuevoElemento);
     }
 }
